@@ -9,6 +9,7 @@ import Root from "./Root.jsx";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Fun from "./pages/Fun.jsx";
+import Contact from "./pages/Contact.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -16,6 +17,7 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/fun" element={<Fun />} />
+      <Route path="/contact" element={<Contact />} />
     </Route>
   )
 );

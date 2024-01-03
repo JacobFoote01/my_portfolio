@@ -1,15 +1,25 @@
 const NavBar = () => {
   return (
     <>
-      <a href="/">Home</a>
+      <a href="/" className="navHome">
+        Logo
+      </a>
       <br />
-      <div>
-        <a href="/about">About</a>
-        <div>Contact</div>
-        <a href="/fun">Fun</a>
-      </div>
+      <a href="/about" className="navAbout">
+        About
+      </a>
       <br />
-      <div>My Work</div>
+      <a href="/contact" className="navContact">
+        Contact
+      </a>
+      <br />
+      {/* <a href="/fun" className="navFun">
+        Fun
+      </a>
+      <br /> */}
+      <a href="https://github.com/JacobFoote01" className="navWork">
+        My Work
+      </a>
     </>
   );
 };
