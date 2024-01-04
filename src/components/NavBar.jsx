@@ -1,8 +1,11 @@
+import "../css/navbar.css";
+import Logo from "./Logo";
+
 const NavBar = () => {
   return (
     <>
       <a href="/" className="navHome">
-        Logo
+        <Logo className="navLogo" />
       </a>
       <br />
       <a href="/about" className="navAbout">

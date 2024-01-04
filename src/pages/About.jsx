@@ -4,8 +4,8 @@ const About = () => {
   return (
     <>
       <div>
-        <img></img>
-        <h3>
+        <img src="" />
+        <h3 className="aboutMe">
           Hello! My name is Jacob Foote. I am a full-stack web developer who
           loves learning new things. I completed the Web Development Program at
           Devmountain in December of 2023. I am Currently a full time dad for my
