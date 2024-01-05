@@ -1,22 +1,35 @@
-.navHome {
-    color: #398EF5;
-}
-
-.navLogo {
-    width: 5px;
-    height: 5px;
-}
+.navHome
 
 .navAbout {
     color: #398EF5;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.navAbout:hover {
+    color: rgba(127, 255, 144, 0.733);
+    text-decoration: underline;
 }
 
 .navContact {
     color: #398EF5;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.navContact:hover {
+    color: rgba(127, 255, 144, 0.733);
+    text-decoration: underline;
 }
 
 .navWork {
     color: #398EF5;
+    padding: 5px;
+    text-decoration: none;
 }
 
+.navWork:hover {
+    color: rgba(127, 255, 144, 0.733);
+    text-decoration: underline;
+}
 /* color: rgba(127, 255, 144, 0.733); */

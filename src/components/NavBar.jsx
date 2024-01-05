@@ -1,11 +1,12 @@
 import "../css/navbar.css";
 import Logo from "./Logo";
+import { FaGithub } from "react-icons/fa";
 
 const NavBar = () => {
   return (
     <>
       <a href="/" className="navHome">
-        <Logo className="navLogo" />
+        <Logo />
       </a>
       <br />
       <a href="/about" className="navAbout">
@@ -21,7 +22,7 @@ const NavBar = () => {
       </a>
       <br /> */}
       <a href="https://github.com/JacobFoote01" className="navWork">
-        My Work
+        <FaGithub />
       </a>
     </>
   );
