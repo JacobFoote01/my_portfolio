@@ -1,6 +1,5 @@
 import "../css/navbar.css";
 import Logo from "./Logo";
-import { FaGithub } from "react-icons/fa";
 
 const NavBar = () => {
   return (
@@ -17,12 +16,8 @@ const NavBar = () => {
         Contact
       </a>
       <br />
-      {/* <a href="/fun" className="navFun">
-        Fun
-      </a>
-      <br /> */}
       <a href="https://github.com/JacobFoote01" className="navWork">
-        <FaGithub />
+        My Work
       </a>
     </>
   );
