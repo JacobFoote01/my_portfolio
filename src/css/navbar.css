@@ -30,3 +30,9 @@
     color: rgba(127, 255, 144, 0.733);
     text-decoration: underline;
 }
+
+.resumeBtn {
+    color: #398EF5;
+    background-color: #2b2a2a;
+    text-decoration: none;
+}
