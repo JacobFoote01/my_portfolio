@@ -1,0 +1,45 @@
+.Link1{
+    color: #398EF5;
+    padding: 5px;
+    text-decoration: none;
+    width: auto;
+}
+
+.Link2{
+    color: #398EF5;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.Link3{
+    color: #398EF5;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.sendBtn {
+    color: black;
+    border-radius: 7px;
+    background-color: #398ef5;
+    padding: 5px;
+    margin-left: 50%;
+}
+
+.contactForm {
+    border-color: #398EF5;
+    border-radius: 7px;
+    border: #398EF5 solid;
+    margin-left: 50%;
+    max-width: max-content;
+}
+
+.name, .email, .message{
+    background-color: rgba(255, 255, 255, .85);
+    padding: 5px;
+    border-radius: 9px;
+}
+
+.contactTitle {
+    margin-left: auto;
+    margin-right: auto;
+}

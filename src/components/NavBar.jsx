@@ -16,9 +16,7 @@ const NavBar = () => {
         Contact
       </a>
       <br />
-      <a href="https://github.com/JacobFoote01" className="navWork">
-        My Work
-      </a>
+      <a className="navResume">Resume</a>
     </>
   );
 };
