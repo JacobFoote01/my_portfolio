@@ -1,0 +1,11 @@
+  /* background-color: #2b2a2a; */
+
+  :root {
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.918);
+    background-image: url("https://images6.alphacoders.com/728/728101.png");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover; 
+    height: 100vh; 
+  }

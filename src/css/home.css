@@ -1,0 +1,60 @@
+.resume {
+    color: black;
+    border-radius: 7px;
+    background-color: #398ef5;
+    padding: 5px;
+    width: 120px;
+    height: 30px;
+    display: inline;
+}
+
+.contact {
+    color: black;
+    border-radius: 7px;
+    background-color: #398ef5;
+    padding: 5px;
+    width: 120px;
+    height: 30px;
+    display: inline;
+}
+
+.pdf {
+    color: black;
+    text-decoration: none;
+}
+
+.googleDoc {
+    color: black;
+    text-decoration: none;
+}
+
+.html {
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown {
+    background-color: #398ef5;
+    color: black;
+    width: 120px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.aboutMe {
+    text-align: center;
+    padding: 10px;
+}
+
+.about {
+    margin-top: 10%;
+    border: #398ef5 solid;
+    border-width: 2px;
+    max-width: 500px;
+}
+
+.headShot {
+    margin-left: 17%;
+    padding: 10px;
+    max-width: 65%;
+}

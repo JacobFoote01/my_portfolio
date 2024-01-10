@@ -1,37 +1,31 @@
-import React, { useState } from "react";
+import React from "react";
 import "../css/navbar.css";
-import Logo from "./Logo";
-
-const ResumeDropdown = () => {
-  const [dropdown, setDropdown] = useState(false);
-
-  const toggleDropdown = () => {
-    setDropdown(!dropdown);
-  };
-  return (
-    <div className="dropdown">
-      <a className="navResume" onClick={toggleDropdown}>
-        Resume
-      </a>
-      {dropdown && (
-        <div className="dropdown-content">
-          <a href="">PDF</a>
-          <br />
-          <a href="">Word</a>
-          <br />
-          <a href="">HTML</a>
-        </div>
-      )}
-    </div>
-  );
-};
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 
 const NavBar = () => {
   return (
     <nav>
-      <a href="/" className="navHome">
-        <Logo />
+      <a href="/">
+        <img src="JF Logo.png" className="navHome" style={{ maxWidth: "8%" }} />
       </a>
+      <br />
+      <div className="navLinks">
+        <a
+          className="Link1"
+          href="https://www.linkedin.com/in/jacob-foote-4905a7292/"
+        >
+          <FaLinkedin />
+        </a>
+        <a className="Link2" href="https://github.com/JacobFoote01">
+          <FaGithub />
+        </a>
+        <a className="Link3" href="https://www.facebook.com/jacob.foote.927/">
+          <FaFacebook />
+        </a>
+      </div>
+      <br />
     </nav>
   );
 };
