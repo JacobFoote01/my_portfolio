@@ -32,16 +32,6 @@ const NavBar = () => {
       <a href="/" className="navHome">
         <Logo />
       </a>
-      <br />
-      <a href="/about" className="navAbout">
-        About
-      </a>
-      <br />
-      <a href="/contact" className="navContact">
-        Contact
-      </a>
-      <br />
-      <ResumeDropdown className="navResume" />
     </nav>
   );
 };

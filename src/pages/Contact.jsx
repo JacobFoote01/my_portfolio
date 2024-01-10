@@ -8,19 +8,9 @@ const Contact = () => {
   return (
     <>
       <div>
-        <img></img>
-        <h1 className="contactTitle">Contact Me Here</h1>
-        <form className="contactForm">
-          <input type="text" placeholder="Name" className="name" />
-          <br />
-          <input type="text" placeholder="Email" className="email" />
-          <br />
-          <input type="textbox" placeholder="Message" className="message" />
-          <br />
-          <button type="submit" className="sendBtn">
-            Send
-          </button>
-        </form>
+        <button type="submit" className="sendBtn">
+          Contact me Here
+        </button>
         <h2>You can connect with me on:</h2>
         <a
           className="Link1"
