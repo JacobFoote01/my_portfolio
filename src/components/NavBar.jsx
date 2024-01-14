@@ -6,9 +6,9 @@ import { FaFacebook } from "react-icons/fa";
 
 const NavBar = () => {
   return (
-    <nav>
+    <nav className="navbar">
       <a href="/">
-        <img src="JF Logo.png" className="navHome" style={{ maxWidth: "8%" }} />
+        <img src="JF Logo.png" className="navHome" />
       </a>
       <br />
       <div className="navLinks">

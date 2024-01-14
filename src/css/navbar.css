@@ -12,11 +12,13 @@
 .navLinks {
     float: inline-end;
     padding-right: 5%;
+    font-size: 25px;
 }
 
 .Link1 {
     color: #398EF5;
-    padding: 5px;
+    padding: 10px;
+    size-adjust: 100%;
 }
 
 .Link1:hover {
@@ -25,7 +27,7 @@
 
 .Link2 {
     color: #398EF5;
-    padding: 5px;
+    padding: 10px;
 }
 
 .Link2:hover {
@@ -34,9 +36,13 @@
 
 .Link3 {
     color: #398EF5;
-    padding: 5px;
+    padding: 10px;
 }
 
 .Link3:hover {
     color: rgba(127, 255, 144, 0.733);
+}
+
+.navbar{
+    display: block;
 }
