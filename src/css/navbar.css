@@ -1,12 +1,12 @@
 .navHome {
     float: inline-start;
     opacity: 60%;
-    padding-right: 5px;
+    /* padding: 5px; */
     max-width: 8%;
 }
 
 .navHome:hover {
-    color: rgba(127, 255, 144, 0.733);
+    border-color: rgba(127, 255, 144, 0.733);
 }
 
 .navLinks {

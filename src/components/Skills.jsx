@@ -3,12 +3,12 @@ import { HiMiniWrenchScrewdriver } from "react-icons/hi2";
 
 const Skills = () => {
   return (
-    <>
-      <h2>
-        <HiMiniWrenchScrewdriver />
-        Skills
+    <div>
+      <h2 className="skillsTitle">
+        <HiMiniWrenchScrewdriver /> Skills
       </h2>
-    </>
+      <div>These are my skills </div>
+    </div>
   );
 };
 

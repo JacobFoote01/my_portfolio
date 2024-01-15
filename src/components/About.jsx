@@ -4,6 +4,7 @@ const About = () => {
   return (
     <>
       <div className="about">
+        <h1 className="aboutTitle">About Me</h1>
         <img className="headShot" src="Jacob Headshot.jpg" />
         <div className="aboutMe">
           Hello! My name is Jacob Foote. I am a full-stack web developer who
