@@ -1,9 +1,13 @@
 import React from "react";
+import { HiMiniWrenchScrewdriver } from "react-icons/hi2";
 
 const Skills = () => {
   return (
     <>
-      <h2>Skills</h2>
+      <h2>
+        <HiMiniWrenchScrewdriver />
+        Skills
+      </h2>
     </>
   );
 };

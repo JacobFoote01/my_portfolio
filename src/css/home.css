@@ -1,43 +1,21 @@
 .resume {
     color: black;
     border-radius: 7px;
+    border-color: #398ef5;
     background-color: #398ef5;
     padding: 5px;
     width: 120px;
     height: 30px;
-    
 }
 
 .contact {
     color: black;
     border-radius: 7px;
+    border-color: #398ef5;
     background-color: #398ef5;
     padding: 5px;
     width: 120px;
     height: 30px;
-}
-
-.pdf {
-    color: black;
-    text-decoration: none;
-}
-
-.googleDoc {
-    color: black;
-    text-decoration: none;
-}
-
-.html {
-    color: black;
-    text-decoration: none;
-}
-
-.dropdown {
-    background-color: #398ef5;
-    color: black;
-    width: 120px;
-    border-radius: 7px;
-    text-align: center;
 }
 
 .aboutMe {
