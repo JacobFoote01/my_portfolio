@@ -1,0 +1,12 @@
+
+.skill1 {
+    margin: 1rem;
+    border: #398ef5 solid;
+    border-width: 4px;
+    width: 100px;
+    height: 70px;
+    background-color: #398ef51b;
+    align-items: center;
+    display: inline-flex;
+    font-size: 20px;
+}

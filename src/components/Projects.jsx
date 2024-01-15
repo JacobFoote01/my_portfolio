@@ -4,9 +4,9 @@ import { FaFolderOpen } from "react-icons/fa";
 const Projects = () => {
   return (
     <div>
-      <h2 className="projectsTitle">
+      <h1 className="projectsTitle">
         <FaFolderOpen /> Projects
-      </h2>
+      </h1>
       <div>These are my projects</div>
     </div>
   );

@@ -29,8 +29,8 @@ const Home = () => {
         <a href="Resume.pdf" />
       </button>
       <About />
-      <Skills className="skills" />
-      <Projects className="Projects" />
+      <Skills />
+      <Projects />
     </>
   );
 };
