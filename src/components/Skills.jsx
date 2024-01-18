@@ -27,87 +27,73 @@ const Skills = () => {
       </h1>
       <div className="allSkills">
         <div className="skill1">
-          <SiJavascript /> Javascript
+          <SiJavascript className="logo" />
+          Javascript
         </div>
-        <div className="skill1">
+        <div className="skill2">
           <FaReact />
           <br />
           React
         </div>
-        <div className="skill1">
+        <div className="skill3">
           <TiHtml5 />
           <br />
           Html5
         </div>
-        <div className="skill1">
+        <div className="skill4">
           <IoLogoCss3 />
           <br />
           Css
         </div>
-        <div className="skill1">
+        <div className="skill5">
           <IoLogoSass />
           <br />
           Sass
         </div>
-        <div className="skill1">
+        <div className="skill6">
           <FaNode />
           <br />
           Node.js
         </div>
-        <div className="skill1">
+        <div className="skill7">
           <FaGitAlt />
           <br />
           Git
         </div>
-        <div className="skill1">
+        <div className="skill8">
           <SiPostgresql />
           <br />
           PostgreSQL
         </div>
-        <div className="skill1">
+        <div className="skill9">
           <SiRedux />
           <br />
           Redux
         </div>
-        <div className="skill1">
+        <div className="skill10">
           <SiAxios />
           <br />
           Axios
         </div>
-        <div className="skill1">
+        <div className="skill11">
           <FaGithub />
           <br />
           Github
         </div>
-        <div className="skill1">
+        <div className="skill12">
           <FaAws />
           <br />
           Aws
         </div>
-        <div className="skill1">
-          <FaBootstrap />
-          <br />
-          Bootstrap
-        </div>
-        <div className="skill1">
+        <div className="skill14">
           <TbBrandOauth />
           <br />
           OAuth
         </div>
-        <div className="skill1">
+        <div className="skill15">
           <SiPostman />
           <br />
           Postman
-        </div>
-        <div className="skill1">
-          <BiLogoHeroku />
-          <br />
-          Heroku
-        </div>
-        <div className="skill1">
-          <SiNginx />
-          <br />
-          Nginx
         </div>
       </div>
     </div>

@@ -6,7 +6,7 @@ const About = () => {
       <div className="about">
         <h1 className="aboutTitle">About Me</h1>
         <img className="headShot" src="Jacob Headshot.jpg" />
-        <div className="aboutMe">
+        <div className="textBody">
           Hello! My name is Jacob Foote. I am a full-stack web developer who
           loves learning new things. I completed the Web Development Program at
           Devmountain in December of 2023. When I am not coding, you can find me

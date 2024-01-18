@@ -33,7 +33,7 @@
     margin-left: 37%;
 }
 
-.aboutMe {
+.textBody {
     text-align: center;
     padding: 10px;
 }
@@ -46,6 +46,7 @@
     min-width: 200px;
     background-color: #398ef51b;
     margin-left: 7rem;
+    float: inline-start;
 }
 
 .headShot {
