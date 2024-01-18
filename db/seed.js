@@ -19,6 +19,6 @@ const VehicleLog = await Project.create({
 
 const TaskList = await Project.create({
     projectName: "Task List",
-    projectDesc: "",
+    projectDesc: "an intuitive to-do list equipped with seamless features. With an 'Add' button for new entries, an 'Edit' button for modifications, and a 'Remove' button for deletions, organizing tasks is a breeze. Task and estimated time inputs further enhance the experience, providing a user-friendly interface for efficient task management",
     projectGit: "https://github.com/JacobFoote01/task_list.git",
 })
