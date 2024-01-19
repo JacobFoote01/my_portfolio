@@ -12,11 +12,8 @@ import { SiAxios } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { FaAws } from "react-icons/fa";
-import { FaBootstrap } from "react-icons/fa";
 import { SiPostman } from "react-icons/si";
-import { BiLogoHeroku } from "react-icons/bi";
 import { TbBrandOauth } from "react-icons/tb";
-import { SiNginx } from "react-icons/si";
 import "../css/skills.css";
 
 const Skills = () => {
