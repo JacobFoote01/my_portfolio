@@ -1,7 +1,7 @@
-import { Project, Skill } from "./model.js";
+import { Project, Skill, db } from "./model.js";
 
 console.log('Syncing Database...')
-await db.synch({ force: true })
+await db.sync({ force: true })
 
 console.log('Seeding Database...')
 

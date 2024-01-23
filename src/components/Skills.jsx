@@ -28,68 +28,55 @@ const Skills = () => {
           Javascript
         </div>
         <div className="skill2">
-          <FaReact />
-          <br />
+          <FaReact className="logo" />
           React
         </div>
         <div className="skill3">
-          <TiHtml5 />
-          <br />
+          <TiHtml5 className="logo" />
           Html5
         </div>
         <div className="skill4">
-          <IoLogoCss3 />
-          <br />
+          <IoLogoCss3 className="logo" />
           Css
         </div>
         <div className="skill5">
-          <IoLogoSass />
-          <br />
+          <IoLogoSass className="logo" />
           Sass
         </div>
         <div className="skill6">
-          <FaNode />
-          <br />
+          <FaNode className="logo" />
           Node.js
         </div>
         <div className="skill7">
-          <FaGitAlt />
-          <br />
+          <FaGitAlt className="logo" />
           Git
         </div>
         <div className="skill8">
-          <SiPostgresql />
-          <br />
+          <SiPostgresql className="logo" />
           PostgreSQL
         </div>
         <div className="skill9">
-          <SiRedux />
-          <br />
+          <SiRedux className="logo" />
           Redux
         </div>
         <div className="skill10">
-          <SiAxios />
-          <br />
+          <SiAxios className="logo" />
           Axios
         </div>
         <div className="skill11">
-          <FaGithub />
-          <br />
+          <FaGithub className="logo" />
           Github
         </div>
         <div className="skill12">
-          <FaAws />
-          <br />
+          <FaAws className="logo" />
           Aws
         </div>
         <div className="skill14">
-          <TbBrandOauth />
-          <br />
+          <TbBrandOauth className="logo" />
           OAuth
         </div>
         <div className="skill15">
-          <SiPostman />
-          <br />
+          <SiPostman className="logo" />
           Postman
         </div>
       </div>
