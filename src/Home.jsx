@@ -1,10 +1,10 @@
 import React from "react";
 import About from "../src/components/About.jsx";
-import "../src/css/home.css";
 import Skills from "./components/Skills.jsx";
 import Projects from "./components/Projects.jsx";
 import { FaRegFilePdf } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
+import "../src/css/home.css";
 
 const Home = () => {
   const handleResume = () => {
@@ -20,18 +20,22 @@ const Home = () => {
   };
 
   return (
-    <>
-      <button className="contact" onClick={handleContact}>
-        <MdOutlineEmail /> Contact Me
-      </button>
-      <button className="resume" onClick={handleResume}>
-        <FaRegFilePdf /> Resume
-        <a href="Resume.pdf" />
-      </button>
-      <About />
-      <Skills />
+    <div className="homeContainer">
+      <div className="buttonContainer">
+        <button className="contact" onClick={handleContact}>
+          <MdOutlineEmail /> Contact Me
+        </button>
+        <button className="resume" onClick={handleResume}>
+          <FaRegFilePdf /> Resume
+          <a href="Resume.pdf" />
+        </button>
+      </div>
+      <div className="topContainer">
+        <About />
+        <Skills />
+      </div>
       <Projects />
-    </>
+    </div>
   );
 };
 
