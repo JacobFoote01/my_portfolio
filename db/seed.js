@@ -7,7 +7,7 @@ console.log('Seeding Database...')
 
 const Checkr = await Project.create({
     projectName: "Checkr",
-    projectDesc: "This innovative collaborative 'To-Do List' application seamlessly integrates your personal and professional tasks. Each list is filled with rewarding activities completing tasks earns you points, accompanied by delightful incentives such as captivating cat photos or engaging short stories. To add a touch of fun, the application even includes a nostalgic game of snake for your enjoyment.",
+    projectDesc: "A collaborative 'To-Do List' application seamlessly integrates your personal and professional tasks. Each list is filled with rewarding activities completing tasks earns you points, accompanied by delightful incentives such as captivating cat photos or engaging short stories. To add a touch of fun, the application even includes a game of snake.",
     projectGit: "https://github.com/paulG1218/DM-Project3.git",
 })
 
