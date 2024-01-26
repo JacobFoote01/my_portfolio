@@ -13,6 +13,8 @@
 
 .skillsTitle {
     text-align: center;
+    font-size: 40px;
+    color: rgba(52, 214, 74, 0.849);
 }
 
 .skillsContainer {

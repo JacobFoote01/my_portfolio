@@ -10,6 +10,7 @@ const Projects = () => {
       </h1>
       <div className="projectBox">
         <h3 className="projectTitle">Checkr</h3>
+
         <button className="github">Github</button>
         <button className="demo">Demo</button>
         <div>Skills:</div>
