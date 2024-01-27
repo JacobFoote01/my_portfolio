@@ -1,6 +1,6 @@
 .contact:hover {
-    background-color: rgba(52, 214, 74, 0.849);
-    border-color: rgba(52, 214, 74, 0.849);
+    background-color: rgb(32, 158, 49);
+    border-color: rgb(32, 158, 49);
 }
 
 .contact {
@@ -13,8 +13,8 @@
 }
 
 .resume:hover {
-    background-color: rgba(52, 214, 74, 0.849);
-    border-color: rgba(52, 214, 74, 0.849);
+    background-color: rgb(32, 158, 49);
+    border-color: rgb(32, 158, 49);
 }
 
 .resume {
@@ -34,7 +34,7 @@
 
 .aboutTitle {
     font-size: 40px;
-    color: rgba(52, 214, 74, 0.849);
+    color: rgb(32, 158, 49);
     text-align: center;
 }
 
@@ -79,13 +79,13 @@
   }
 
   body::-webkit-scrollbar {
-    width: 12px; /* Set the width of the scrollbar */
+    width: 12px;
   }
   
   body::-webkit-scrollbar-thumb {
-    background-color: #666666; /* Set the color of the thumb/grabber */
+    background-color: #666666; 
   }
   
   body::-webkit-scrollbar-track {
-    background-color: #000000; /* Set the color of the track */
+    background-color: #000000;
   }

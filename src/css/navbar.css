@@ -5,7 +5,7 @@
 }
 
 .navHome:hover {
-    border-color: rgba(52, 214, 74, 0.849);
+    border-color: rgb(32, 158, 49);
 }
 
 .navLinks {
@@ -21,7 +21,7 @@
 }
 
 .Link1:hover {
-    color: rgba(52, 214, 74, 0.849);
+    color: rgb(32, 158, 49);
 }
 
 .Link2 {
@@ -30,7 +30,7 @@
 }
 
 .Link2:hover {
-    color: rgba(52, 214, 74, 0.849);
+    color: rgb(32, 158, 49);
 }
 
 .Link3 {
@@ -39,7 +39,7 @@
 }
 
 .Link3:hover {
-    color: rgba(52, 214, 74, 0.849);
+    color: rgb(32, 158, 49);
 }
 
 .navbar{
