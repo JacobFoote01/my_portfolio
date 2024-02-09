@@ -7,8 +7,6 @@
   "scripts": {
     "dev": "nodemon ./server/app.js -w ./server/app.js -w ./server/app.js",
     "start": "nodemon ./server/app.js -w ./server/app.js -w ./server/app.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build", 
     "seed": "dropdb --if-exists my_portfolio && createdb my_portfolio && node db/seed.js",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
