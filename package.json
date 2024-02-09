@@ -1,4 +1,5 @@
 {
+  "homepage": "https://jacobfoote01.github.io/my_portfolio/",
   "name": "my_portfolio",
   "private": true,
   "version": "0.0.0",
@@ -6,6 +7,8 @@
   "scripts": {
     "dev": "nodemon ./server/app.js -w ./server/app.js -w ./server/app.js",
     "start": "nodemon ./server/app.js -w ./server/app.js -w ./server/app.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build", 
     "seed": "dropdb --if-exists my_portfolio && createdb my_portfolio && node db/seed.js",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -36,6 +39,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",
+    "gh-pages": "^6.1.1",
     "vite": "^5.0.0"
   }
 }
