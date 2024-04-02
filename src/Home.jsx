@@ -21,7 +21,6 @@ const Home = () => {
 
   return (
     <div className="homeContainer">
-      <h1>Hello</h1>
       <div className="buttonContainer">
         <button className="contact" onClick={handleContact}>
           <MdOutlineEmail /> Contact Me
