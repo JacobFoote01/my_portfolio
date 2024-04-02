@@ -1,5 +1,5 @@
 {
-  "homepage": "https://jacobfoote01.github.io/my_portfolio/",
+  "homepage": "https://jacobfoote01.github.io/",
   "name": "my_portfolio",
   "private": true,
   "version": "0.0.0",
@@ -11,7 +11,9 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "initdb": "dropdb --if-exists my_portfolio && createdb my_portfolio"
+    "initdb": "dropdb --if-exists my_portfolio && createdb my_portfolio",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",
