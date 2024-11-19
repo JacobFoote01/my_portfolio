@@ -1,20 +1,39 @@
 import React from "react";
-import { HiMiniWrenchScrewdriver } from "react-icons/hi2";
-import { SiJavascript } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { TiHtml5 } from "react-icons/ti";
-import { IoLogoCss3 } from "react-icons/io";
-import { IoLogoSass } from "react-icons/io5";
-import { FaNode } from "react-icons/fa";
-import { FaGitAlt } from "react-icons/fa6";
-import { SiPostgresql } from "react-icons/si";
-import { SiAxios } from "react-icons/si";
-import { SiRedux } from "react-icons/si";
-import { FaGithub } from "react-icons/fa";
-import { FaAws } from "react-icons/fa";
-import { SiPostman } from "react-icons/si";
-import { TbBrandOauth } from "react-icons/tb";
+import {
+  HiMiniWrenchScrewdriver,
+  SiJavascript,
+  FaReact,
+  TiHtml5,
+  IoLogoCss3,
+  IoLogoSass,
+  FaNode,
+  FaGitAlt,
+  SiPostgresql,
+  SiAxios,
+  SiRedux,
+  FaGithub,
+  FaAws,
+  SiPostman,
+  TbBrandOauth,
+} from "react-icons/all"; // Import all from a single location for clarity
 import "../css/skills.css";
+
+const skillData = [
+  { name: "Javascript", icon: <SiJavascript /> },
+  { name: "React", icon: <FaReact /> },
+  { name: "Html5", icon: <TiHtml5 /> },
+  { name: "Css", icon: <IoLogoCss3 /> },
+  { name: "Sass", icon: <IoLogoSass /> },
+  { name: "Node.js", icon: <FaNode /> },
+  { name: "Git", icon: <FaGitAlt /> },
+  { name: "PostgreSQL", icon: <SiPostgresql /> },
+  { name: "Redux", icon: <SiRedux /> },
+  { name: "Axios", icon: <SiAxios /> },
+  { name: "Github", icon: <FaGithub /> },
+  { name: "Aws", icon: <FaAws /> },
+  { name: "OAuth", icon: <TbBrandOauth /> },
+  { name: "Postman", icon: <SiPostman /> },
+];
 
 const Skills = () => {
   return (
@@ -23,65 +42,16 @@ const Skills = () => {
         <HiMiniWrenchScrewdriver /> Skills
       </h1>
       <div className="allSkills">
-        <div className="skill1">
-          <SiJavascript className="logo" />
-          Javascript
-        </div>
-        <div className="skill2">
-          <FaReact className="logo" />
-          React
-        </div>
-        <div className="skill3">
-          <TiHtml5 className="logo" />
-          Html5
-        </div>
-        <div className="skill4">
-          <IoLogoCss3 className="logo" />
-          Css
-        </div>
-        <div className="skill5">
-          <IoLogoSass className="logo" />
-          Sass
-        </div>
-        <div className="skill6">
-          <FaNode className="logo" />
-          Node.js
-        </div>
-        <div className="skill7">
-          <FaGitAlt className="logo" />
-          Git
-        </div>
-        <div className="skill8">
-          <SiPostgresql className="logo" />
-          PostgreSQL
-        </div>
-        <div className="skill9">
-          <SiRedux className="logo" />
-          Redux
-        </div>
-        <div className="skill10">
-          <SiAxios className="logo" />
-          Axios
-        </div>
-        <div className="skill11">
-          <FaGithub className="logo" />
-          Github
-        </div>
-        <div className="skill12">
-          <FaAws className="logo" />
-          Aws
-        </div>
-        <div className="skill14">
-          <TbBrandOauth className="logo" />
-          OAuth
-        </div>
-        <div className="skill15">
-          <SiPostman className="logo" />
-          Postman
-        </div>
+        {skillData.map((skill, index) => (
+          <div key={index} className="skill" aria-label={skill.name}>
+            <div className="logo">{skill.icon}</div>
+            <span>{skill.name}</span>
+          </div>
+        ))}
       </div>
     </div>
   );
 };
 
 export default Skills;
+
