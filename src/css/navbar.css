@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #9b9b9b;
     padding: 10px 20px;
     border-bottom: 2px solid #398ef5;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -10,7 +10,6 @@
 
 .navHome {
     max-width: 50px;
-    /* Adjusted for better scaling */
     cursor: pointer;
     opacity: 1;
     transition: opacity 0.3s, transform 0.3s;
