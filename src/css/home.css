@@ -50,7 +50,7 @@
   border: #398ef5 solid;
   border-width: 4px;
   max-width: 500px;
-  min-width: 200px;
+  /* min-width: 200px; */
   height: min-content;
   background-color: rgba(0, 0, 0, 0.089);
   float: inline-start;
@@ -89,4 +89,16 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-track {
   background-color: #000000;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about-image {
+    max-width: 100%;
+    margin-top: 20px;
+  }
 }

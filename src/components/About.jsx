@@ -1,5 +1,4 @@
 import React from "react";
-// import headShot from "../public/Jacob Headshot.jpg";
 import "../css/home.css";
 
 const About = () => {
