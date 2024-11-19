@@ -1,21 +1,10 @@
 import React from "react";
-import {
-  HiMiniWrenchScrewdriver,
-  SiJavascript,
-  FaReact,
-  TiHtml5,
-  IoLogoCss3,
-  IoLogoSass,
-  FaNode,
-  FaGitAlt,
-  SiPostgresql,
-  SiAxios,
-  SiRedux,
-  FaGithub,
-  FaAws,
-  SiPostman,
-  TbBrandOauth,
-} from "react-icons/all"; // Import all from a single location for clarity
+import { HiMiniWrenchScrewdriver } from 'react-icons/hi2';
+import { SiJavascript, SiPostgresql, SiAxios, SiRedux, SiPostman } from 'react-icons/si';
+import { FaReact, FaNode, FaGitAlt, FaGithub, FaAws } from 'react-icons/fa';
+import { TiHtml5 } from 'react-icons/ti';
+import { IoLogoCss3, IoLogoSass } from 'react-icons/io';
+import { TbBrandOauth } from 'react-icons/tb';
 import "../css/skills.css";
 
 const skillData = [

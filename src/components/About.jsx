@@ -1,13 +1,13 @@
 import React from "react";
-import headShot from "../assets/JacobHeadshot.jpg";
-import "../css/about.css";
+// import headShot from "../public/Jacob Headshot.jpg";
+import "../css/home.css";
 
 const About = () => {
   return (
     <section className="about">
       <h1 className="aboutTitle">About Me</h1>
       <hr id="line" />
-      <img className="headShot" src={headShot} alt="Jacob Foote headshot" />
+      <img className="headShot" src="/Jacob Headshot.jpg" alt="Jacob Foote headshot" />
       <hr id="line" />
       <p className="textBody">
         Hello! My name is Jacob Foote. I am a full-stack web developer who loves
