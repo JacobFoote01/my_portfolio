@@ -14,9 +14,8 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <a href="/">
-        <img src="JF Logo.png" className="navHome" />
+        <img src="JF Logo.png" className="navHome" alt="Home Logo" />
       </a>
-      <br />
       <div className="navLinks">
         <a className="Link1" onClick={handleLinkedIn}>
           <FaLinkedin />
@@ -25,7 +24,6 @@ const NavBar = () => {
           <FaGithub />
         </a>
       </div>
-      <br />
     </nav>
   );
 };

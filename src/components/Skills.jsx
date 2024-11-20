@@ -19,9 +19,6 @@ const skillData = [
   { name: "Redux", icon: <SiRedux /> },
   { name: "Axios", icon: <SiAxios /> },
   { name: "Github", icon: <FaGithub /> },
-  // { name: "Aws", icon: <FaAws /> },
-  // { name: "OAuth", icon: <TbBrandOauth /> },
-  // { name: "Postman", icon: <SiPostman /> },
 ];
 
 const Skills = () => {
