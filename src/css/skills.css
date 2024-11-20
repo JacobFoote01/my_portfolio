@@ -3,8 +3,9 @@
 }
 
 .skillsContainer {
-    margin: 2rem auto;
-    max-width: 80%;
+    /* margin: 2rem auto; */
+    width: 90%;
+    max-width: 800px;
     min-width: 300px;
     text-align: center;
 }
