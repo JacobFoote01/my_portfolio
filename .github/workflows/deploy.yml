@@ -24,7 +24,7 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Check dist directory
+      - name: Debug build directory
         run: ls -la ./dist
 
       - name: Upload production-ready build files
@@ -49,4 +49,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-
