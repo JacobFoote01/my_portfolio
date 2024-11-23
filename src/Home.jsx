@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import About from "../src/components/About.jsx";
 import Skills from "./components/Skills.jsx";
 import Projects from "./components/Projects.jsx";
@@ -7,16 +7,18 @@ import { MdOutlineEmail } from "react-icons/md";
 import "../src/css/home.css";
 
 const Home = () => {
+  const [showModal, setShowModal] = useState(false);
+
   const handleResume = () => {
     window.open("Resume.pdf");
   };
 
   const handleContact = () => {
-    const emailAddress = "jacobjfoote01@gmail.com";
-    const subject = "I saw your website and would like to talk";
-    const mailtoLink = `mailto:${emailAddress}?subject=${subject}`;
+    setShowModal(true);
+  };
 
-    window.location.href = mailtoLink;
+  const closeModal = () => {
+    setShowModal(false);
   };
 
   return (
@@ -27,9 +29,22 @@ const Home = () => {
         </button>
         <button className="resume" onClick={handleResume}>
           <FaRegFilePdf /> Resume
-          <a href="Resume.pdf" />
         </button>
       </div>
+
+      {showModal && (
+        <div className="modalOverlay" onClick={closeModal}>
+          <div className="modalContent" onClick={(e) => e.stopPropagation()}>
+            <h2>Contact Information</h2>
+            <p>Email: jacobjfoote01@gmail.com</p>
+            <p>Phone: (801) 674-3235</p>
+            <button className="closeButton" onClick={closeModal}>
+              Close
+            </button>
+          </div>
+        </div>
+      )}
+
       <div className="topContainer">
         <About />
         <Skills />
@@ -40,3 +55,4 @@ const Home = () => {
 };
 
 export default Home;
+

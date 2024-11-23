@@ -1,4 +1,3 @@
-import "../src/css/App.css";
 import {
   createBrowserRouter,
   createRoutesFromElements,

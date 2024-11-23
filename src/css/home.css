@@ -7,32 +7,32 @@
   padding: 2rem;
 }
 
+.contact,
+.resume {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
 .contact:hover {
-  background-color: rgb(32, 158, 49);
-  border-color: rgb(32, 158, 49);
+  background-color: rgb(255, 255, 255);
 }
 
 .contact {
-  color: black;
-  border-radius: 7px;
-  border-color: #398ef5;
   background-color: #398ef5;
-  width: 110px;
-  height: 30px;
+  color: rgb(0, 0, 0);
 }
 
 .resume:hover {
-  background-color: rgb(32, 158, 49);
-  border-color: rgb(32, 158, 49);
+  background-color: rgb(255, 255, 255);
 }
 
 .resume {
-  color: black;
-  border-radius: 7px;
-  border-color: #398ef5;
   background-color: #398ef5;
-  width: 110px;
-  height: 30px;
+  color: rgb(0, 0, 0);
 }
 
 .buttonContainer {
@@ -41,9 +41,58 @@
   margin-top: 5%;
 }
 
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 90%;
+}
+
+.modalContent h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #398ef5;
+}
+
+.modalContent p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.closeButton {
+  padding: 10px 15px;
+  background-color: #398ef5;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.closeButton:hover {
+  background-color: rgb(212, 212, 212);
+}
+
 .aboutTitle {
   font-size: 40px;
-  color: rgb(32, 158, 49);
   text-align: center;
 }
 
@@ -55,20 +104,16 @@
 
 .about {
   margin-top: 2rem;
-  /* margin-right: 2rem; */
   border: #398ef5 solid;
   border-width: 4px;
   max-width: 800px;
-  width: 90%;
   height: min-content;
-  background-color: rgba(0, 0, 0, 0.089);
-  float: inline-start;
+  background-color: #202020;
   border-radius: 7px;
   text-align: center;
 }
 
 .headShot {
-  /* margin-left: 17%; */
   padding: 10px;
   max-width: 65%;
 }
