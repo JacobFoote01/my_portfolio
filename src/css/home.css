@@ -19,6 +19,8 @@
 
 .contact:hover {
   background-color: rgb(255, 255, 255);
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .contact {
@@ -28,6 +30,8 @@
 
 .resume:hover {
   background-color: rgb(255, 255, 255);
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .resume {
@@ -108,7 +112,7 @@
   border-width: 4px;
   max-width: 800px;
   height: min-content;
-  background-color: #202020;
+  background-color: rgba(0, 0, 0, 0.473);
   border-radius: 7px;
   text-align: center;
 }

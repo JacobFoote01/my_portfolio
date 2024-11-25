@@ -8,13 +8,7 @@ const About = () => {
       <hr id="line" />
       <img className="headShot" src="/Jacob Headshot.jpg" alt="Jacob Foote headshot" />
       <hr id="line" />
-      <p className="textBody">
-        Hello! My name is Jacob Foote. I am a full-stack web developer who loves
-        learning new things. I completed the Web Development Program at
-        Devmountain in December of 2023. When I am not coding, you can find me
-        working on cars, snowboarding, biking, camping, or usually spending time
-        with my wife and son.
-      </p>
+      <p className="textBody">Hi, I'm Jacob Foote—a passionate full-stack web developer with a love for continuous learning and problem-solving. I graduated from Devmountain's Web Development Program in December 2023, where I honed my skills in creating dynamic, user-friendly applications. When I'm not immersed in coding, you’ll find me under the hood of a car, carving through snowy slopes, cycling, camping, or cherishing quality time with my wife and son.</p>
     </section>
   );
 };

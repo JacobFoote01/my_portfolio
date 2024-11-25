@@ -3,7 +3,6 @@
 }
 
 .skillsContainer {
-    /* margin: 2rem auto; */
     width: 90%;
     max-width: 800px;
     min-width: 300px;
@@ -12,7 +11,6 @@
 
 .skillsTitle {
     font-size: 2rem;
-    /* color: rgb(32, 158, 49); */
     margin-bottom: 1rem;
 }
 
@@ -30,13 +28,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.089);
+    background-color: rgba(0, 0, 0, 0.473);
     border: 4px solid #398ef5;
     border-radius: 8px;
     text-align: center;
     font-size: 1rem;
     transition: transform 0.3s, box-shadow 0.3s;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .skill:hover {

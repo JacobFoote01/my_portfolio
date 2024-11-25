@@ -7,13 +7,13 @@ const projects = [
     title: "DC Landworks",
     github: "https://github.com/JacobFoote01/DC_Landworks",
     skills: "React, Javascript, Html5, Css",
-    description: `This is a website for a landscaping company.`,
+    description: `A modern and responsive website designed for a landscaping company, showcasing services, portfolio, and contact information with a user-friendly interface.`,
   },
   {
     title: "Mountain Skies Construction",
     github: "https://www.mountainskiesconstruction.com",
     skills: "Css, Wordpress",
-    description: `This is a website for a construction company. I was able to make it multiple pages and flow really well from pictures to their story.`,
+    description: `A multi-page website built for a construction company, seamlessly blending stunning visuals with their story. Designed to provide a smooth user experience, it highlights services, projects, and company values while ensuring intuitive navigation and engaging content.`,
   },
   {
     title: "Checkr",
