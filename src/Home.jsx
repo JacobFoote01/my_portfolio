@@ -10,7 +10,7 @@ const Home = () => {
   const [showModal, setShowModal] = useState(false);
 
   const handleResume = () => {
-    window.open("Resume.pdf");
+    window.open("12-2024 Resume Jacob.pdf");
   };
 
   const handleContact = () => {
